@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #0c0c0c;
+    margin: 0;
+}
+
+header {
+    background-color: #7622a3;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #0c0c0c;
+}
+
+#productos, #carrito {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#productos ul, #lista-carrito {
+    list-style-type: none;
+    padding: 0;
+}
+
+#productos ul li, #lista-carrito li {
+    padding: 10px;
+    background-color: #a59e9e;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#carrito {
+    margin-top: 20px;
+}
+
+#total-carrito {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #7622a3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #5a1a8c;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #7622a3;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
